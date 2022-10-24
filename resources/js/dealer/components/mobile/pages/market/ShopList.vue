@@ -1,0 +1,9 @@
+<template>
+    <div>
+        <shop-list-item></shop-list-item>
+        <shop-list-item></shop-list-item>
+        <shop-list-item></shop-list-item>
+        <shop-list-item></shop-list-item>
+        <shop-list-item></shop-list-item>
+    </div>
+</template>

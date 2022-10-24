@@ -1,0 +1,79 @@
+
+.btn-facebook{background-color: #405D9D; color:#fff; &:hover{color:#fff} }
+.btn-instagram{background-color:#E52D27 ; color:#fff; &:hover{color:#fff}}
+.btn-youtube{background-color: #C8046C; color:#fff; &:hover{color:#fff}}
+.btn-twitter{background-color:#42AEEC; color:#fff; &:hover{color:#fff}}
+.btn-google{  background-color:#ff7575; color:#fff; &:hover{color:#fff} }
+
+
+
+.btn-card{
+	border-radius:$border-radius;  line-height: 1.1;
+	background: #ffffff;
+    box-shadow: 0 2px 10px #e1eaff, 0 1px 3px #ececec;
+	padding:16px;
+	display:block;
+	.icon{ color:$primary;  }
+}
+
+.btn-card-icontop{
+	height: 100px;
+	border-radius:$border-radius-lg;  line-height: 1.1; margin-bottom: 10px;
+	padding:16px 7px;  padding-bottom: 10px;
+	background-color: #E5EBFF;
+	display:block; 
+	.icon{ color:$primary; margin-top:5px;  margin-bottom:5px; display: block; }
+	img{  height:32px; }
+	i{ font-size: 24px; line-height: 32px ;}
+	.text{ opacity: .5; display: block; line-height: 1.2;}
+}
+
+.btn-icontop-lg{
+	text-align: center;
+	border-radius:$border-radius-lg;  line-height: 1.1; margin-bottom: 10px;
+	padding:20px 15px; 
+	background-color: #E5EBFF;
+	display:block;
+	.icon{ color:$primary; margin-top:15px; margin-bottom:15px; display: block;  }
+	img{  height:32px; }
+	i{ font-size: 20px; line-height: 32px ;}
+	.text{ display: block;}
+}
+
+.btn-block{
+	margin-bottom: 10px;
+}
+
+.btn-img{
+	overflow:hidden;
+	color:#fff;
+	padding:10px; 
+	margin-bottom:10px;
+	height:100px;
+	border-radius:$border-radius;
+	text-align:center;
+	display:flex;
+	align-items:flex-end;
+	justify-content:center;
+	background-size:cover;
+	color:#fff;
+	.text{ position: relative; z-index: 7; text-shadow: 0 0 7px rgba(#000, .9); letter-spacing: .5px; }
+	&:hover{ color:#fff; }
+}
+
+
+
+.btn-icon{ width: $input-height; height: $input-height;  text-align: center;
+	display: inline-flex; align-items: center; justify-content: center;
+	i{  }
+}
+
+.btn-light{ background-color:#fff; border-color:$border-color; 
+	i{ color:$gray-500; }
+	&:hover{ background-color:#fff;  border-color:darken($border-color, 30%);  }
+}
+
+.btn{
+	.text + i{ margin-left:10px; }
+	i + .text{ margin-left:10px; }
+}

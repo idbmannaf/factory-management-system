@@ -1,0 +1,41 @@
+
+.offcanvas{
+	transform: translateX(-100%);
+    visibility:hidden;
+    position: fixed;
+    right: auto;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 75%;
+    height: 100%;
+    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+    background: #fff; 
+    z-index:99;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    .btn-close{ position:relative; z-index:30; }
+    &.show{
+		transform: translateX(0);
+		visibility:visible;
+		transition: all 0.2s ease-in-out;
+	}
+
+    .language{
+        margin-bottom: 20px; display:inline-block;
+        .btn-primary{
+            background-color:#2bbab4;
+        }
+    }
+}
+
+
+.nav-sidebar{
+    margin: 20px;
+    margin-left: 20px;
+    > a{
+        display: block; padding:10px; color:initial; border-radius: $border-radius;
+        i{ width:16px; text-align:center; margin-right:20px; display: inline-block; color:$gray-500 }
+     &:hover{ background-color: #eee;}
+    }
+}

@@ -1,0 +1,18 @@
+
+body.dialog-on{ overflow:hidden;}
+
+.app-content{
+	min-height: 86vh;
+    padding-bottom: 70px;
+    background: #fff;
+}
+
+.bar-bottom{
+    position:fixed; bottom:0; left:0; width: 100%; z-index:12;
+    display: flex; 
+    border-top-left-radius:20px;  border-top-right-radius: 20px;
+    padding:$spacer;
+	background: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.20);
+    .form-control, .custom-select{ display: inline-block; width: auto;}
+}

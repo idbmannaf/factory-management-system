@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Dank Mono,monospace",
+    "editor.fontSize": 17,
+    "editor.fontLigatures": true,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffff00",
+        "terminalCursor.foreground": "#ffff00"
+    },
+}
